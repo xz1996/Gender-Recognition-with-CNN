@@ -17,7 +17,7 @@ Windows平台下Python各类库的安装：http://www.lfd.uci.edu/~gohlke/python
 若要测试本模型，请将cnn model文件夹里的文件放到合适的路径（全英文路径），再将```cnn.py```的第125行中的```data_save_path```的值改为
 所存放的路径即可。
 
-若要训练模型，将cnn.py里的第115~121行和第132~139行代码解除屏蔽。将第115行的```csvPath```的值改为你存放的csv文件的路径。
+若要训练模型，将cnn.py里的第115--121行和第132--139行代码解除屏蔽。将第115行的```csvPath```的值改为你存放的csv文件的路径。
 csv文件的格式为：路径;标签，如：
 
   H:\FaceImageDataset\FERET_80_80\FERET-003\07.tif;M
