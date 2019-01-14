@@ -1,4 +1,4 @@
-# This is my bachelor graduation project
+# This is my bachelor graduation project in 2017
 
 ## Environment
 
@@ -10,9 +10,11 @@
 
 - TFLearn0.3
 
-Windows平台下Python各类库的安装：http://www.lfd.uci.edu/~gohlke/pythonlibs/
+Windows平台下Python各类库的安装：<http://www.lfd.uci.edu/~gohlke/pythonlibs/>
 
 ## How to use
+
+Pull代码之前请先安装[git lfs](https://git-lfs.github.com/)，使用教程可以参考<https://www.jianshu.com/p/a1abaa991212>。
 
 若要测试本模型，请将cnn model文件夹里的文件放到合适的路径（全英文路径），再将```cnn.py```的第125行中的```data_save_path```的值改为
 所存放的路径即可。
